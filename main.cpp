@@ -13,7 +13,7 @@ long int time_in_miliseconds()
 mt19937_64 random_number_generator(time_in_miliseconds());
 uniform_int_distribution<int> one_in_three(0 , 2);
 
-#define RUNS 100'000'000
+#define RUNS 100'000
 
 bool game();
 
